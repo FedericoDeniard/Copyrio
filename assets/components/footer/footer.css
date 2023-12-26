@@ -16,6 +16,7 @@ footer {
     width: fit-content;
     gap: .5rem;
     align-items: center;
+    text-decoration: none;
 }
 
 .location img{

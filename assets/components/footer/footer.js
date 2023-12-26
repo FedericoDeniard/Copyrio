@@ -6,13 +6,13 @@ class copyrioFooter extends HTMLElement{
         this.innerHTML = 
     `<link rel="stylesheet" type="text/css" href="../../assets/components/footer/footer.css">
     <footer>
-        <div class="location">
+        <a class="location" href="https://maps.app.goo.gl/kVF4MQaP8wNiJtKt9" target="_blank">
             <img src="../..//assets/components/footer/location.svg">
             <p> Zona Balvanera. Av. Corrientes 2330 Piso 9° - Oficina 904</p>
-        </div>
+        </a>
         <div class="contact">
-         <img src="../..//assets/components/footer/phone.svg">
-         <p>+(54)(11)xxxx-xxxx</p>
+                <img src="../..//assets/components/footer/phone.svg">
+                <p>+(54)(11)xxxx-xxxx</p>
     </footer>`
     }
 }
