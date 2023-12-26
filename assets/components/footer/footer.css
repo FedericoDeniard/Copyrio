@@ -1,0 +1,47 @@
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: #001F3F;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.location {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    gap: .5rem;
+    align-items: center;
+}
+
+.location img{
+    height: 2rem;
+}
+
+.location p{
+    font-family: "roboto";
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    gap: .5rem;
+    align-items: center;
+}
+
+.contact img {
+    height: 2rem;
+}
+
+.contact p{
+    font-family: "roboto";
+    font-size: 2rem;
+    color: #fff;
+}

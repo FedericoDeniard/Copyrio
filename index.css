@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    background-color: #fff;
+    color: #333333;
+}
+
+.art1 {
+    display: grid;
+    grid-template-columns: 50rem auto;
+    padding: 5px;
+    gap: 5px;
+}
+
+.art1 img {
+    width: 50rem;
+}
+
+.art1 p{
+    font-family: "Merriweather";
+    font-size: 3rem;
+    align-self: center;    
+}
