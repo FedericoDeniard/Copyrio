@@ -46,3 +46,21 @@ footer {
     font-size: 2rem;
     color: #fff;
 }
+
+.time {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    gap: .5rem;
+    align-items: center;
+}
+
+.time img {
+    height: 2rem;
+}
+
+.time p {
+    font-family: "roboto";
+    color: #fff;
+    font-size: 2rem;
+}

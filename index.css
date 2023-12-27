@@ -11,17 +11,18 @@ body {
 
 .art1 {
     display: grid;
-    grid-template-columns: 50rem auto;
-    padding: 5px;
-    gap: 5px;
+    grid-template-columns: 50rem 70rem;
+    padding: 10px;
+    gap: 7rem;
 }
 
 .art1 img {
     width: 50rem;
+    border-radius: 5px;
 }
 
 .art1 p{
     font-family: "Merriweather";
     font-size: 3rem;
-    align-self: center;    
+    align-self: center;
 }
