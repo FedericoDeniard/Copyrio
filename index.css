@@ -7,22 +7,39 @@
 body {
     background-color: #fff;
     color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .art1 {
-    display: grid;
-    grid-template-columns: 50rem 70rem;
-    padding: 10px;
-    gap: 7rem;
+    flex: 1;
+    display: flex;
 }
 
-.art1 img {
-    width: 50rem;
+.intro{
+    display: flex;
+    padding: 10px;
+    gap: 7rem;
+    height: fit-content;
+}
+
+.intro img {
+    max-height: 300px;
+    width: auto;
     border-radius: 5px;
 }
 
-.art1 p{
+.intro p{
     font-family: "Merriweather";
-    font-size: 3rem;
+    font-size: 2rem;
     align-self: center;
+}
+
+
+@media only screen and (max-width: 768px){
+    .art1 .intro{
+        display: flex;
+        flex-direction: column;
+    }
 }

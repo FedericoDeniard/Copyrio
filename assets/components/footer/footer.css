@@ -1,66 +1,46 @@
 footer {
-    width: 100vw;
-    height: 50px;
-    background-color: #001F3F;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    justify-content: space-around;
+  width: 100vw;
+  min-height: 50px;
+  background-color: #001f3f;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-around;
+  margin-top: auto;
 }
 
-.location {
-    display: flex;
-    height: fit-content;
-    width: fit-content;
-    gap: .5rem;
-    align-items: center;
-    text-decoration: none;
-}
-
-.location img{
-    height: 2rem;
-}
-
-.location p{
-    font-family: "roboto";
-    font-size: 2rem;
-    color: #fff;
-}
-
-.contact {
-    display: flex;
-    height: fit-content;
-    width: fit-content;
-    gap: .5rem;
-    align-items: center;
-}
-
-.contact img {
-    height: 2rem;
-}
-
-.contact p{
-    font-family: "roboto";
-    font-size: 2rem;
-    color: #fff;
-}
-
+.location,
+.contact,
 .time {
-    display: flex;
-    height: fit-content;
-    width: fit-content;
-    gap: .5rem;
-    align-items: center;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
 }
 
+.location img,
+.contact img,
 .time img {
-    height: 2rem;
+  height: 2rem;
 }
 
-.time p {
-    font-family: "roboto";
-    color: #fff;
-    font-size: 2rem;
+.location p,
+  .contact p,
+  .time p  {
+  font-family: "roboto";
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .location p,
+  .contact p,
+  .time p {
+    font-size: 1.5rem;
+    text-wrap: wrap;
+    word-wrap: normal;
+  }
 }
